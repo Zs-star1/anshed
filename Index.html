@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أناشيد الصف الأول - المجموعة الثانية</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Amiri', serif;
+        }
+        
+        .card {
+            break-inside: avoid;
+            page-break-inside: avoid;
+        }
+        
+        @media print {
+            .card {
+                break-after: page;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+        
+        .gradient-bg-1 { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .gradient-bg-2 { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+        .gradient-bg-3 { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+    </style>
+</head>
+<body class="bg-gray-100 p-4">
+    <div class="max-w-4xl mx-auto">
+        <div class="text-center mb-8 no-print">
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">أناشيد الصف الأول - المجموعة الثانية</h1>
+            <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-bold text-lg">
+                🖨️ طباعة جميع البطاقات
+            </button>
+        </div>
+
+        <!-- أنشودة الحروف المفصلة -->
+        <div class="card gradient-bg-1 rounded-3xl p-8 mb-8 shadow-2xl">
+            <div class="text-center">
+                <div class="bg-white bg-opacity-20 rounded-2xl p-6 backdrop-blur-sm">
+                    <h2 class="text-4xl font-bold text-white mb-6 drop-shadow-lg">🐰 أنشودة الحروف</h2>
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <p class="text-2xl text-gray-800 leading-relaxed font-bold text-right">
+                            ألف أرنب يجري يلعب<br>
+                            يأكل جزراً كي لا يتعب<br><br>
+                            
+                            باء بطة نطّت نطة<br>
+                            وقعت ضحكت منها القطة<br><br>
+                            
+                            تاء تاج فوق الرأس<br>
+                            فيه جمال فيه قياس<br><br>
+                            
+                            ثاء ثعلب، مكّار<br>
+                            يسرق دجاجاً من جار<br><br>
+                            
+                            <span class="text-lg text-gray-600">... (تُستكمل مع باقي الحروف)</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- أنشودة الأرقام المفصلة -->
+        <div class="card gradient-bg-2 rounded-3xl p-8 mb-8 shadow-2xl">
+            <div class="text-center">
+                <div class="bg-white bg-opacity-20 rounded-2xl p-6 backdrop-blur-sm">
+                    <h2 class="text-4xl font-bold text-white mb-6 drop-shadow-lg">🔢 أنشودة الأرقام</h2>
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <p class="text-2xl text-gray-800 leading-relaxed font-bold text-right">
+                            واحد هو راسي عالي<br>
+                            اثنين عيوني يا غالي<br><br>
+                            
+                            ثلاثة هما أصحابي<br>
+                            أربعة نلعب بألعابي<br><br>
+                            
+                            خمسة أصابع في يدي<br>
+                            ستة كراتٍ عند جدي<br><br>
+                            
+                            سبعة ألوان في قوسي<br>
+                            ثمانية كراسي في درسي<br><br>
+                            
+                            تسعة كتب في شنطتي<br>
+                            عشرة نجوم في سمائي
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- أنشودة النظافة المفصلة -->
+        <div class="card gradient-bg-3 rounded-3xl p-8 mb-8 shadow-2xl">
+            <div class="text-center">
+                <div class="bg-white bg-opacity-20 rounded-2xl p-6 backdrop-blur-sm">
+                    <h2 class="text-4xl font-bold text-white mb-6 drop-shadow-lg">🧼 أنشودة النظافة</h2>
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <p class="text-2xl text-gray-800 leading-relaxed font-bold text-right">
+                            نظافتي عنواني<br>
+                            وأنا طفلٌ مثالي<br><br>
+                            
+                            أغسل يدي دائمًا<br>
+                            بالماء والصابون<br><br>
+                            
+                            أنظف أسناني<br>
+                            بفرشاة ومعجون<br><br>
+                            
+                            وأحافظ على ملابسي<br>
+                            نظيفة طول اليوم
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-12 no-print">
+            <button onclick="window.print()" class="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-bold text-xl shadow-lg">
+                📄 طباعة البطاقات الآن
+            </button>
+            <p class="text-gray-600 mt-4 text-lg">كل بطاقة ستُطبع على صفحة منفصلة</p>
+        </div>
+    </div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96a30fa931bee9ef',t:'MTc1NDM2MzAwNC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
